@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-link-opener
+    runtime: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
